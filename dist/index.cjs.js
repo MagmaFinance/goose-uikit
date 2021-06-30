@@ -2316,14 +2316,11 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/magmacake-finance/" },
+            React__default['default'].createElement(Image, { src: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-dark-bg.png", width: 370, height: 121, responsive: true, alt: "rugdoctor" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
-/*
-      <a href="">
-        <Image src="https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" width={370} height={121} responsive alt="rugdoc" />
-      </a>
-*/
 
 var Icon$11 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
